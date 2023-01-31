@@ -65,7 +65,7 @@ margin: 0px 15px;
     line-height: 24px;
     letter-spacing: 0.005em;
     text-align: left;
-    color:white !important;
+   
     
 
   }
@@ -79,6 +79,7 @@ letter-spacing: 0.015em;
 text-align: left;
 
   }
+  
   .kaicho-nav .nav-item .nav-link{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
@@ -647,6 +648,19 @@ span.under_red::after {
   height: 2px;
   bottom: -6.5px;
 }
+span a{
+  color: white;
+}
+
+span a:hover{
+  color: wheat;
+  text-decoration: none;
+}
+
+span a:after{
+  color: white;
+  text-decoration: none;
+}
 .footer-link-regular{
 font-family: Poppins;
 font-size: 19px;
@@ -1102,6 +1116,19 @@ span.under_red::after {
   height: 2px;
   bottom: -6.5px;
 }
+span a{
+  color: white;
+}
+
+span a:hover{
+  color: wheat;
+  text-decoration: none;
+}
+
+span a:after{
+  color: white;
+  text-decoration: none;
+
 img.line1 {
   height: 112px;
 }
