@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="assets/images/Favicon.png">
+    <title>Moonlander</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Open+Sans:wght@300;500&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home">
+      <!--NAvbar Start-->
+      <nav class="navbar navbar-expand-lg container navbar-default navbar-dark">
+        <a class="navbar-brand mybrand" href="/"><img src="assets/images/logo.svg" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#moon-lander"
+            aria-controls="moon-lander" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/images/menu-icon.svg" alt="" srcset="">
+        </button>
+
+        <div class="collapse navbar-collapse" id="moon-lander">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="private_deals.html">Deals </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">How to Join </a>
+                </li>
+               
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">FAQs </a>
+                </li>
+
+               
+            </ul>
+            
+        </div>
+        <div class="margin-left-auto">
+            <button class="btn btn-connect" data-toggle="modal" data-target="#wallet">
+                Connect wallet
+                
+            </button>
+        </div>
+    </nav>
+    <!--Divider-->
+<div class="divider1">
+    </div>
+     <!--Modal start-->
+
+  <div class="modal fade" id="wallet" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered modal-dialog-zoom" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <img class="x-mark" src="assets/images/x-mark.png">
+            </button>
+          </div>
+          <h2 class="text-center">Coming Soon</h2>
+        <!-- <div class="modal-body">
+         <div class="modal-cardd">
+             <img src="assets/images/wal_logo.png" alt="">
+             <h5 class="ml-4 heading-five">
+                MetaMask
+             </h5>
+         </div>
+         <div class="modal-cardd mt-3">
+            <img src="assets/images/wal_logo_2.png" alt="">
+            <h5 class="ml-4 heading-five">
+                WalletConnect
+            </h5>
+        </div>
+        <div class="modal-cardd mt-3">
+            <img src="assets/images/wal_logo_3.png" alt="">
+            <h5 class="ml-4 heading-five">
+                Trust Wallet
+            </h5>
+        </div>
+        </div> -->
+       
+      </div>
+    </div>
+  </div>
+    <!--Modal End-->
+    <div class="container">
+        <!--Banner section start-->
+        <div class="banner ">
+            <div class="row mt-4">
+                <div class="col-12 col-sm-8">
+                    <h2 class="banner-title">
+                        Invest in early stage crypto projects<br class="brcust">
+                        with Kaicho Moonlander
+                    </h2>
+                    <h5 class="banner-text mt-3">
+                        Get access to hand-picked, best in-class projects. Moonlander provides its users with the opportunity to participate in projects that are shaping the blockchain industry.
+Whether it's DeFi, NFTs, GameFi or the Metaverse, Moonlander brings together new, exciting projects directly to its community holders.
+                    </h5>
+                    <div class="banner-buttons mt-5">
+                        <a href="upcoming_deals.html">
+                        <button class="btn upcomming ">View Upcoming Deals
+                            
+                        </button>
+                    </a>
+                        <a class="btn community ml-5 " href="https://discord.com/invite/y2MCFhExYT" target="_blank">
+                            
+Join the Community
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="banner-image">
+                        <img src="assets/images/banner1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <!--Banner section end-->
+
+      
+<!--ongoing section Start-->
+<div class="participate">
+    <h2 class="text-center">
+        Completed Deals
+    </h2>
+    <div class="container packages">
+        
+        <div class="upcomming-section">
+
+            <div class="card-item container" onclick="privateDeals()">
+                
+                <div class="card-buttons mt-4">
+                    <a href="private_deals.html">
+                    <button class="btn btn-ongoing">
+                        Completed
+              <img src="assets/images/ongoing.svg" alt="" class="ml-2">
+                    </button>
+                </a>
+                  <a href="private_deals.html">  
+                    <button class="btn btn-private ">
+                        Private
+                        
+                    </button>
+                </a>
+                </div>
+                <div class="card-img">
+                    <img src="assets/images/card1.png" alt="">
+                </div>
+                <div class="card-bottom mb-4">
+                    <h4 class="mt-5">
+                        CryptoZeroFi
+                    </h4>
+                    <a href="private_deals.html" class="bottom-image">
+                        <!-- <img src="assets/images/ongoingg.svg" alt="" class=" mt-1"> -->
+                    </a>
+                </div>
+            </div>
+        </a>
+
+        <div class="card-item container" onclick="upcommingDeals()">
+                <div class="card-buttons mt-4">
+                    <a href="upcoming_deals.html">
+                    <button class="btn btn-ongoing">
+                        Completed
+                        <img src="assets/images/ongoing.svg" alt="" class="ml-2">
+              
+                    </button>
+                </a>
+                    <a href="upcoming_deals.html">  
+                        <button class="btn btn-private ">
+                            Private
+                            
+                        </button>
+                    </a>
+                </div>
+                <div class="card-img">
+                    <img src="assets/images/sugarkingdom.png" alt="">
+                </div>
+                <div class="card-bottom mb-4">
+                    <h4 class="mt-5">
+                        Sugar Kingdom
+                    </h4>
+                    <a href="upcoming_deals.html" class="bottom-image">
+                    <!-- <img src="assets/images/ongoingg.svg" alt="" class="mt-1"> -->
+                </a>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+    </div>
+<!--ongoing section end-->
+
+<!--UPcomming section start-->
+
+<div class="participate">
+    <h2 class="text-center">
+        Upcoming Deals
+        
+    </h2>
+    <div class="container packages">
+        <div class="upcomming-section">
+            
+            
+       
+        </div>
+    </div>
+    </div>
+<!--Upcomming section end-->
+<div class="card-item container rangerx" onclick="upcommingDeals()">
+    <h2>Watch this Space</h2>
+</div>
+</div>
+<!--Divider-->
+<div class="divider divider-home">
+
+</div>
+<!--Footer Start-->
+<div class="container footer mt-5">
+    <div class="left-section">
+        <a href="/" class="footer-link-logo">
+           <img src="assets/images/logo.svg" alt="" srcset="">
+        </a>
+        <div class="mt-4 social-section">
+            <a href="https://discord.com/invite/y2MCFhExYT" target="_blank" class="social-image">
+                <img src="assets/images/discord.png" alt="" srcset="">
+            </a>
+            <a href="https://twitter.com/moonlanderkai?s=21" target="_blank" class="social-image ml-5">
+                <img src="assets/images/twitter.png" alt="" srcset="">
+            </a>
+            <a href="https://t.me/MoonlanderKaicho" target="_blank"  class="social-image ml-5">
+                <img src="assets/images/telegram.png" alt="" srcset="">
+        </a>
+
+        </div>
+
+        
+           
+                   
+    </div>
+    <div class="right-section">
+        <div class="right-child">
+         <div class="sub-child">
+            <a href="/" class="footer-link-active">
+                Home
+            </a>
+            <div class="mt-3">
+                <a href="#" class="footer-link-regular">
+                    How to Join
+                </a>
+            </div>
+            <div class="mt-3">
+                <a href="upcoming_deals.html" class="footer-link-regular">
+                    Upcoming deals
+                </a>
+            </div>
+         </div>
+         <div class="sub-child ml-5">
+            <div class="">
+                <a href="#" class="footer-link-regular">
+                    FAQs
+                </a>
+            </div>
+            <div class="mt-3">
+                <a href="private_deals.html" class="footer-link-regular ">
+                    Deals
+                </a>
+            </div>
+         </div>
+        </div>
+        
+    </div>
+</div>
+<!--Footer End-->
+    
+
+    <!--Scripts-->
+    <script >
+        function privateDeals() {
+    window.location.href = "private_deals.html";
+
+}
+function upcommingDeals() {
+    window.location.href = "upcoming_deals.html";
+
+}
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
