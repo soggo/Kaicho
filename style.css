@@ -5,12 +5,8 @@
 
 }
 body {
-height: 100vh;
+height: auto;
 font-family: 'Poppins', sans-serif;
-/* color: red; */
- display: flex;
-/* min-height: 100vh; */
-flex-direction: column; 
 }
 
 .home{
@@ -600,12 +596,12 @@ border-top: 2px solid #fff;
 width: 100%;
 }
 /*Footer Start*/
-/* .footer{
+.footer{
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-/* padding-bottom: 40px; }*/
- 
+padding-bottom: 40px;
+}
 .copy-right {
 display: flex;
 flex-direction: column;
@@ -1005,7 +1001,7 @@ border-color: transparent  !important;
 .navbar-dark .navbar-toggler:focus{
 border:none !important;
 outline:none !important;
-box-shadow:none !important;
+box-shadow:none !importna;
 }
 .navbar-toggler img{
 width: 30px;
@@ -1069,25 +1065,6 @@ max-width: 270px;
 width: 100%;
 
 }
-
-.last {
-  position:relative;
-  margin-top: 5rem;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 5rem;
-  margin-bottom: -20rem;
-}
-
-  .textin{
-    font-size: large;
-    color: gainsboro;
-    font-weight: bold;
-  }
-
-
-
 /* ===============kaicho home page end */
 /*======kaicho light theme start */
 .kaicho-light .nav-item .nav-link{
@@ -1130,18 +1107,6 @@ color: white !important;
 /*==========kaicho light theme end */
 /* Media  Queries */
 @media (min-width:320px) and (max-width:570px) {
-  .kaicho-home{
-    height: 100vh;
-    width:100vw;
-  }
-
-  .hirebox{
-    width: 90%;
-  }
-
-  .phone{
-    font-size: medium;
-  }
 span.under_red::after {
   content: "";
   left: 0px;
@@ -1154,23 +1119,6 @@ span.under_red::after {
 span a{
   color: white;
 }
-
-.last {
-  position:relative;
-  margin-top: 5rem;
-  bottom: 0;
-  left: 0;
-  width: 99vw;
-  height: auto;
-  margin-bottom: -10rem;
-}
-
-  .textin{
-    font-size: large;
-    color: gainsboro;
-    font-weight: bold;
-  }
-
 
 span a:hover{
   color: wheat;
@@ -1262,10 +1210,10 @@ font-size: 19px ;
   flex-direction: row;
 }
 /*footer section */
-/* .footer{
+.footer{
   flex-direction: column;
   padding: 10px 30px;
-} */
+}
 .right-section{
   margin-top: 40px;
 }
@@ -1492,4 +1440,3 @@ font-size: 25px;
     font-size: 16px;
     padding: 5px 20px;
     }
-  }
